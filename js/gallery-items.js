@@ -33,6 +33,7 @@ export default [
     original:
       'https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg',
     description: 'Alpine Mountains',
+    index: 5,
   },
   {
     preview:
@@ -40,6 +41,7 @@ export default [
     original:
       'https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg',
     description: 'Mountain Lake Sailing',
+    index: 6,
   },
   {
     preview:
