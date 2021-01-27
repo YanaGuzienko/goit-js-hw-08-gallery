@@ -48,6 +48,7 @@ function ulClick(event) {
   refs.imgModal.alt = event.target.alt;
   refs.imgModal.setAttribute('data-index', `${event.target.dataset.index}`);
   activeIndex = Number(event.target.dataset.index);
+
   window.addEventListener('keydown', nextImg);
   window.addEventListener('keydown', prevtImg);
 }
