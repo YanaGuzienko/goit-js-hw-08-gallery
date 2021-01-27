@@ -28,9 +28,9 @@ const createElement = element => {
   return liItem;
 };
 
-images.forEach(element => {
+images.forEach((element, index) => {
   createElement(element);
-  index += 1;
+
   refs.ul.appendChild(createElement(element));
 });
 
@@ -47,7 +47,7 @@ function ulClick(event) {
   refs.imgModal.alt = event.target.alt;
 
   activeIndex = Number(event.target.dataset.index);
-
+  console.log(activeIndex);
   window.addEventListener('keydown', nextImg);
   window.addEventListener('keydown', prevImg);
 }
