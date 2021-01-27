@@ -1,5 +1,5 @@
-import images from '/js/gallery-items.js';
-console.log(images[+1].original);
+import images from './js/gallery-items.js';
+
 const refs = {
   ul: document.querySelector('.js-gallery'),
   div: document.querySelector('.js-lightbox'),
